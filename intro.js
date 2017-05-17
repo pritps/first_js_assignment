@@ -16,13 +16,14 @@ for (var counter = 1; counter <= 100; counter++) {
 
 //Bean Counting
 function countBs(inputStr) {
-	var count = 0;
+	/*var count = 0;
 	for(var i = 0; i < inputStr.length; i++) {
 		if (inputStr.charAt(i) == 'B') {
 			count++;
 		}
 	}
-	return count;
+	return count;*/
+	return countChar(inputStr, 'B');
 }
 
 function countChar(inputStr, charToCount) {
