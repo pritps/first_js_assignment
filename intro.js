@@ -24,6 +24,16 @@ function countBs(inputStr) {
 	}
 	return count;
 }
+
+function countChar(inputStr, charToCount) {
+	var count = 0;
+	for(var i = 0; i < inputStr.length; i++) {
+		if (inputStr.charAt(i) == charToCount) {
+			count++;
+		}
+	}
+	return count;
+}
 console.log("*********************Bean Counting**************************");
 console.log(countBs("BBC"));
 console.log(countChar("kakkerlak","k"));
